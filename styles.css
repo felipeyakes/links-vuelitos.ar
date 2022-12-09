@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Coolvetica;
+}
+
+@font-face{
+    font-family: Coolvetica;
+    src: url(./fonts/coolvetica\ rg.otf);
+}
+
+body{
+    text-align: center;
+    background: #e8e8e8;
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #6d6b6b;
+}
+
+header img{
+    width: 300px;
+    filter: drop-shadow(0 0 10px black);
+}
+
+.links{
+    margin-top: 30px;
+}
+
+a{
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    max-width: 200px;
+    margin: 0 auto 25px auto;
+}
+
+a:hover {
+    transform: scale(1.07);
+  }
+
+.sitio{
+    border: 2px solid #2807ff;
+    background-color: #2807ff;
+    border-radius: 15px;
+}
+
+.wpp{
+    border: 2px solid #137a0d;
+    background-color: #137a0d;
+    border-radius: 15px;
+}
+
+.ig{
+    border: 2px solid #7f0c99;
+    background-color: #7f0c99;
+    border-radius: 15px;
+}
+
+.fb{
+    border: 2px solid #23138a;
+    background-color: #23138a;
+    border-radius: 15px;
+}
+
+.ttk{
+    border: 2px solid #860e24;
+    background-color: #860e24;
+    border-radius: 15px;
+}
+
+.most-highlighted{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.paseos-cards {
+  display: flex;
+  gap: 10px;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+  
+.paseos {
+  width: 320px;
+  height: 450px;
+  background-color: #696969;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.paseos img {
+  padding-top: 10px;
+  width: 300px;
+  border-radius: 2%;
+}
+
+.paseos h2, p{
+    margin-top: 8px;
+    margin: 10px;
+}
+
+.rectangulo-info h3 {
+    height: 25px;
+    width: 160px;
+    padding: 5px; 
+    background: rgba(122, 254, 93, 0.6784313725);
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.most-selled {
+    background: #fe0230 !important;
+    box-shadow: 0 0 10px 5px #ff0000;
+    animation: pulse 1s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 10px 5px #ff0000;
+    }
+    50% {
+      box-shadow: 0 0 20px 10px #ff0000;
+    }
+    100% {
+      box-shadow: 0 0 10px 5px #ff0000;
+    }
+  }
+
+/* PASEOS Sección tarjetas de paseos Botón de "Ver Más" */
+.paseos-button {
+    background: rgba(79, 246, 28, 0.67);
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #000000;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 20px;
+    width: 160px;
+  }
+  
+  /* PASEOS Sección tarjetas de paseos Información del paseo dentro de la tarjeta */
+  .info-card {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .info-card p {
+    margin-bottom: 30px;
+  }
+
+@media screen and (min-width: 1000px) {
+    a {
+      max-width: 400px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .paseos {
+        width: 350px;
+        height: 450px;
+      }
+      .paseos img {
+        width: 320px;
+      }
+  }
